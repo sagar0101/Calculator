@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div class="navbar">
+            <input class="inputfield  inputtext" type="text" placeholder="0" id="result">
+        </div><br>
+        <div class="home">
+            <button onclick="clrs()" class="btn btnac ">AC</button>
+            <button onclick="del()" class="btn btndel"><img id="ximg" src="x-button.png" alt=""></button>
+            <button onclick="display('%')" class="btn btnper">%</button>
+            <button onclick="display('/')" class="btn btndiv">/</button>
+            <button onclick="display('7')" class="btn   btn7">7</button>
+            <button onclick="display('8')" class="btn   btn8">8</button>
+            <button onclick="display('9')" class="btn  btn9">9</button>
+            <button onclick="display('*')" class="btn btnmul">x</button>
+            <button onclick="display('4')" class="btn   btn4">4</button>
+            <button onclick="display('5')" class="btn   btn5">5</button>
+            <button onclick="display('6')" class="btn   btn6">6</button>
+            <button onclick="display('-')" class="btn btnmine">-</button>
+            <button onclick="display('1')" class="btn   btn1">1</button>
+            <button onclick="display('2')" class="btn   btn2">2</button>
+            <button onclick="display('3')" class="btn   btn3">3</button>
+            <button onclick="display('+')" class="btn btnplus">+</button>
+            <button onclick="display('00')" class="btn  btn00">00</button>
+            <button onclick="display('0')" class="btn  btn0">0</button>
+            <button onclick="display('.')" class="btn btndot">.</button>
+            <button onclick="calculate()" class="btn btnequal">=</button>
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
